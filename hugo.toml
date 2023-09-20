@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "AstroDev"
 
 # Language settings
 contentDir = "content/en"
@@ -67,23 +67,15 @@ weight = 1
 title = "Goldydocs"
 description = "A Docsy example site"
 
-[languages.no]
-languageName ="Norsk"
-contentDir = "content/no"
-[languages.no.params]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
+
+[languages.br]
+languageName ="Português"
+contentDir = "content/br"
+[languages.br.params]
+title = "AstroDev Brasil!"
+description = "Uma jornada no Universo da Programação"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-
-[languages.fa]
-languageName ="فارسی"
-contentDir = "content/fa"
-[languages.fa.params]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
@@ -104,7 +96,7 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "AstroDev"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
